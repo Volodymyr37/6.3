@@ -42,13 +42,18 @@ body {
 .middle {
   text-align: center;
 }
-
+a {
+  padding-bottom: 24px;
+}
+a.active {
+  border-bottom: 3px solid #46a358;
+}
 .last {
   width: 100px;
 }
 
 nav {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   height: 100%;
 }
